@@ -73,7 +73,7 @@ $(function () {
 		loop: true,
 		margin: 10,
 		autoplay: true,
-		autoplayTimeout: 3000,
+		autoplayTimeout: 1000,
 		autoplayHoverPause: true
 	  });	  
 	});
@@ -364,7 +364,7 @@ $(function () {
      -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
      // optional
      $('#blogCarousel').carousel({
-        interval: 5000
+        interval: 2000
      });
 
 
